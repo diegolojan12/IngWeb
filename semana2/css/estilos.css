@@ -1,0 +1,16 @@
+body{
+	background: rgb(39, 139, 116);
+} 
+header{
+	background: rgb(147, 251, 161);
+	color: #AA8439;
+}
+.cabeceraPrincipal{
+	font-size:30px;
+	color: #050762;
+	font-family: arial;
+}
+
+#principal{
+	background: rgba(0, 255, 72, 0.356);
+}

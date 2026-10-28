@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(160deg, rgb(39, 139, 116), rgb(22, 90, 75));
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #1c2b27;
+}
+
+/* ---------- Cabecera ---------- */
+header {
+	background: rgb(147, 251, 161);
+	color: #AA8439;
+}
+
+.cabeceraPrincipal {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding: 14px 32px;
+	font-size: 30px;
+	color: #050762;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cabeceraPrincipal h1 {
+	margin: 0;
+	font-size: 1em;
+}
+
+nav a {
+	font-size: 16px;
+	color: #050762;
+	text-decoration: none;
+	margin-left: 8px;
+	padding: 8px 14px;
+	border-radius: 999px;
+	transition: background 0.2s;
+}
+
+nav a:hover,
+nav a:focus-visible {
+	background: rgba(5, 7, 98, 0.12);
+	outline: none;
+}
+
+/* ---------- Contenido ---------- */
+#principal {
+	flex: 1;
+	width: 100%;
+	max-width: 760px;
+	margin: 32px auto;
+	padding: 24px;
+	background: rgba(0, 255, 72, 0.356);
+	border-radius: 16px;
+	text-align: center;
+}
+
+#principal h2 {
+	margin: 8px 0;
+	color: #050762;
+}
+
+/* ---------- Tarjeta del formulario ---------- */
+article {
+	max-width: 380px;
+	margin: 16px auto 8px;
+	padding: 28px;
+	background: #ffffff;
+	border-radius: 14px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+	text-align: left;
+}
+
+article h3 {
+	margin: 0 0 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #278b74;
+}
+
+label {
+	display: block;
+	margin-bottom: 6px;
+	font-weight: 600;
+	color: #050762;
+}
+
+input {
+	width: 100%;
+	padding: 11px 14px;
+	margin-bottom: 18px;
+	border: 2px solid #cfe3dd;
+	border-radius: 8px;
+	font-size: 15px;
+	transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+	outline: none;
+	border-color: #278b74;
+	box-shadow: 0 0 0 3px rgba(39, 139, 116, 0.25);
+}
+
+button {
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 8px;
+	background: #050762;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+	background: #278b74;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus-visible {
+	outline: 3px solid #93fba1;
+	outline-offset: 2px;
+}
+
+/* ---------- Pie ---------- */
+footer {
+	padding: 16px;
+	background: #050762;
+	color: #93fba1;
+	text-align: center;
+}
+
+footer h6 {
+	margin: 0;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
