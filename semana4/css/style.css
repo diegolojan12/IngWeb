@@ -175,10 +175,13 @@ body.bodylogin{
     color: #333;
     border: none;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
+
+    
+}
+.wrapper .btn:hover {
+    transform: scale(1.05);          
+    background-color: #ff9800;     
+    border-radius: 15px;
 }
 
 .wrapper .register-link{
